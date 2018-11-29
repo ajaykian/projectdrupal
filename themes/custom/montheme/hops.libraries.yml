@@ -1,0 +1,39 @@
+base:
+  header: false
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/modernizr
+    - hops/orientationchange
+
+  css:
+    base:
+      css/base/base.css: {}
+    layout:
+      css/layout/layout.css: {}
+    component:
+      css/components/system.css: {}
+      css/components/global.css: {}
+      css/components/components.css: {}
+    state:
+      css/state/state.css: {}
+    theme:
+      css/theme/theme.css: {}
+
+a11y-toggle:
+  version: 1.x
+  js:
+    js/lib/a11y-toggle/a11y-toggle.min.js: {}
+
+orientationchange:
+  version: 1.x
+  js:
+    js/lib/orientationchange/ios-orientationchange-fix.js: {}
+
+dropdown:
+  version: 1.x
+  js:
+    js/dropdown.js: {}

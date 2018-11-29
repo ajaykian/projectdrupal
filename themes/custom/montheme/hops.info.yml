@@ -1,0 +1,68 @@
+name: Hops
+type: theme
+base theme: stable
+description: A starter theme to brew according to your taste.
+package: Core
+# core: 8.x
+
+libraries:
+  - hops/base
+
+libraries-override:
+  filter/drupal.filter:
+    css:
+      theme:
+        /core/themes/stable/css/filter/filter.admin.css: false
+
+  system/base:
+    css:
+      component:
+        /core/themes/stable/css/system/components/progress.module.css: false
+
+  core/drupal.vertical-tabs:
+    css:
+      component:
+        /core/themes/stable/css/core/vertical-tabs.css: false
+
+  user/drupal.user:
+    css:
+      component:
+        /core/themes/stable/css/user/user.module.css: false
+
+ckeditor_stylesheets:
+  - css/base/base.css
+  - css/components/ckeditor.css
+  - css/components/system.css
+  - css/components/global.css
+  - css/components/components.css
+
+regions:
+  header: 'Site Header'
+  content_top: 'Content top'
+  content: 'Content'
+  content_aside: 'Content aside'
+  content_bottom: 'Content bottom'
+  footer: 'Footer'
+
+# Define custom namespaces with component libraries module
+# for cleaner inclusions in templates
+# It is used by hops.ui_patterns.yml for UI patterns module
+component-libraries:
+  atoms:
+    paths:
+      - styleguide-src/components/01-atoms
+  molecules:
+    paths:
+      - styleguide-src/components/02-molecules
+  organisms:
+    paths:
+      - styleguide-src/components/03-organisms
+  layouts:
+    paths:
+      - styleguide-src/components/04-layouts
+
+# Information added by Drupal.org packaging script on 2018-07-10
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'hops'
+datestamp: 1531230827

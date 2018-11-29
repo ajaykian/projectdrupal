@@ -1,0 +1,22 @@
+# French translation of OneAll Social Login (8.x-2.83)
+# Copyright (c) 2018 by the French translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OneAll Social Login (8.x-2.83)\n"
+"POT-Creation-Date: 2018-08-20 10:47+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+msgid "Redirection settings"
+msgstr "Paramètres de redirection"
+msgid "User"
+msgstr "Utilisateur"
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+msgid "Only site administrators can create new user accounts."
+msgstr "Seuls les administrateurs du site peuvent créer de nouveaux comptes."
